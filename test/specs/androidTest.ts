@@ -33,8 +33,8 @@ describe('Test android App', () => {
         await Home.viewsBtn.click();
         await Home.autoCompBtn.click()
         await Home.screenTop.click()
-        await Home.textField.setValue('jordan')
-        await expect(Home.textField).toHaveText('jordan')
+        await Home.textField.setValue('japan')
+        await expect(Home.textField).toHaveText('japan')
         // await expect (Home.textField).toHaveText('failure')
     })
     it('navigate to any page that i want using package,activity ', async () => {
